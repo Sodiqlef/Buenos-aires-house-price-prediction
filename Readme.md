@@ -109,13 +109,6 @@ pip install django scikit-learn pandas category_encoders seaborn
 
 ---
 
-## 📌 To Do
-
-- Add map-based location input (for lat/lon)
-- Allow CSV upload to predict bulk prices
-- Add price range confidence interval
-
----
 
 
 
