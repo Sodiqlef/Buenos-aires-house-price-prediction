@@ -105,7 +105,7 @@ pip install django scikit-learn pandas category_encoders seaborn
 
 ## 📸 UI Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot](images/Screenshot.png)
 
 ---
 
