@@ -27,8 +27,11 @@ def index(request):
 
     else:
         form = PricePredictionForm()
+    
+    if predicted_price != None:
+        predicted_price = "{:,}".format(int(predicted_price))
 
     return render(request, "index.html", {
         "form": form,
-        "predicted_price": "{:,}".format(int(predicted_price))
+        "predicted_price": predicted_price
     })
