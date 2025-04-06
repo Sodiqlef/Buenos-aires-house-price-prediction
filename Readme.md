@@ -105,7 +105,7 @@ pip install django scikit-learn pandas category_encoders seaborn
 
 ## 📸 UI Screenshot
 
-> Add a screenshot of your web form here (optional)
+![App Screenshot](screenshot.png)
 
 ---
 
