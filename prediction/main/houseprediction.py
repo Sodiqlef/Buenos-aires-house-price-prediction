@@ -1,12 +1,9 @@
 
 import os
 import pandas as pd
-import seaborn as sns
-from random import random
 
 from glob import glob
 from category_encoders import OneHotEncoder
-from sklearn.metrics import mean_absolute_error as mae
 from sklearn.linear_model import Ridge
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import make_pipeline
