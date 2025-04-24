@@ -1,4 +1,3 @@
-
 ---
 
 # 🏡 Buenos Aires Apartment Price Predictor
@@ -35,18 +34,21 @@ This project is a web application built with **Django** and **scikit-learn** tha
   - OneHotEncoding
   - Imputation (SimpleImputer)
   - Ridge regression fitting
+- Model performance evaluated using mean absolute error
 
 ---
 
 ## 🖥️ Web App Functionality
 
 Users can input:
+
 - Surface area (in m²)
 - Latitude
 - Longitude
 - Neighborhood (from dropdown)
 
 App returns:
+
 - Estimated price in USD
 - Price formatted with commas (e.g., `$95,300`)
 
@@ -55,22 +57,26 @@ App returns:
 ## ⚙️ How to Run on your local machine
 
 1. **Clone this repo**
+
 ```bash
 git clone https://github.com/sodiqlef/Buenos-aires-house-price-prediction.git
 cd prediction
 ```
 
 2. **Install dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. **Run Django server**
+
 ```bash
 python manage.py runserver
 ```
 
 4. **Visit in browser**
+
 ```
 http://127.0.0.1:8000/
 ```
@@ -80,6 +86,7 @@ http://127.0.0.1:8000/
 ## ⚙️ How to Run on web
 
 1. **Visit the web address**
+
 ```
 http://devsodiq-buenos-aires.herokuapp.com/
 ```
@@ -93,7 +100,7 @@ http://devsodiq-buenos-aires.herokuapp.com/
 - scikit-learn
 - pandas
 - category_encoders
-- seaborn 
+- seaborn
 
 Install via:
 
@@ -108,7 +115,3 @@ pip install django scikit-learn pandas category_encoders seaborn
 ![App Screenshot](images/Screenshot.png)
 
 ---
-
-
-
-

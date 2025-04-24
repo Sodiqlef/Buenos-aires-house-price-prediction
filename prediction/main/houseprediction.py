@@ -24,8 +24,8 @@ def wrangle(filepath):
     # Filter to only Capital Federal district and drop place_with_parent_names column
     df = df[df["place_with_parent_names"].str.contains("Capital Federal")]
     
-    # Filter to a price not more than $400000 
-    df = df[df["price_aprox_usd"] <= 500000]
+    # Filter to a price not more than $500000 
+    df = df[df["price_aprox_usd"] <= 500_000]
     
     # Split lat and lon from lat-lon and drop the lat-lon column
     df[["lat", "lon"]] = df["lat-lon"].str.split(",", expand=True).astype(float)
